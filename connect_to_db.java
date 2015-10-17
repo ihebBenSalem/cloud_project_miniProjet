@@ -12,7 +12,7 @@ import java.sql.* ;
             Class c = Class.forName("com.mysql.jdbc.Driver") ;
          Driver pilote = (Driver)c.newInstance() ;
          DriverManager.registerDriver(pilote); 
-         Connection con = DriverManager.getConnection(myurl,"root","root" ) ;
+         Connection con = DriverManager.getConnection(myurl,"mysqlusername","mysqlpassword" ) ;
 
           // Envoi d’un requête générique
          String sql =  "select * from test" ;

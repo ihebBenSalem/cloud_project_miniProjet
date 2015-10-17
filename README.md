@@ -1,1 +1,3 @@
 # cloud_project_miniProjet
+this is the first proto-type of TCP client/server application to transfere string between the two side ...
+also,test of the database interaction using Netbeans/IntellijIDea
